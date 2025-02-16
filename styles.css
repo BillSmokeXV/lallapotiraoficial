@@ -513,43 +513,7 @@ body {
 
 /* carrossel de depoimentos */
 
-.depoimentosContainer{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px 0 50px ;
-  gap: 10px;
-  position: relative;
-}
 
-
-.carrosselCompleto {
-  position: relative;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 50%;
-    min-width: 300px;
-    height: auto;
-}
-
-.carrosselInterno {
-  border-radius: 20px;
-}
-
-.carousel-control-next-icon {
-  background-image: url("assets/img/btnR.png");
-  background-size: contain;
-  position: absolute;
-  right: -25%;
-}
-
-.carousel-control-prev-icon {
-  background-image: url("assets/img/btnL.png");
-  background-size: contain;
-  position: absolute;
-  left: -25%;
-}
 
 /* Contatos */
 
@@ -729,10 +693,6 @@ body {
   color: var(--cor-branco);
   font-size: 32px;
   align-self: center;
-}
-
-.carrosselFaq {
-  margin-top: 20px;
 }
 
 .slideFaq {
@@ -948,6 +908,8 @@ body {
 
 @media (max-width: 990px) {
   .bannerConteudo {
+    width: 50%;
+    height: 50%;
     flex-direction: column-reverse;
     gap: 50px;
   }
