@@ -3,8 +3,8 @@
     top: 0;
     left: 0;
     object-fit: cover;
-    width: 60%;
-    height: 60%;
+    width: 100% vh;
+    height: 100% vh;
   }
   
   .bb8 {
