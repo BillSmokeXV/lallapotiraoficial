@@ -28,6 +28,16 @@
   box-sizing: border-box;
 }
 
+#background-video {
+  position: fixed; /* Fixa o vídeo no fundo */
+  top: 0;
+  left: 0;
+  width: 100%; /* Ajusta a largura para 100% */
+  height: 100%; /* Ajusta a altura para 100% */
+  object-fit: cover; /* Faz o vídeo cobrir toda a área, sem distorcer */
+  z-index: -1; /* Coloca o vídeo atrás do conteúdo */
+}
+
 html {
   width: 100vw;
   max-width: 100vw;
